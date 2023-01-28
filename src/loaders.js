@@ -1,4 +1,4 @@
-const URL='https://jobifybackendapp.onrender.com';
+const URL='https://jobify-personal-api.onrender.com';
 
 
 export const indexLoader = async () => {
