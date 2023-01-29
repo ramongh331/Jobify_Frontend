@@ -15,7 +15,7 @@ const posts = useLoaderData()
                     <img src="https://i.imgur.com/SQkvSRO.png" alt="something" />
                 </section>
             </section>
-            <section className="additionsSect">
+            {/* <section className="additionsSect">
                 <h3>Recent Additions</h3>
                 <section className="jobCards">
                     {posts.slice(-4).map((post) => (
@@ -28,8 +28,8 @@ const posts = useLoaderData()
                     </Link>
                     ))}
                    
-                </section>
-            </section>
+                </section> 
+            </section>*/}
         </section>
     )
 }

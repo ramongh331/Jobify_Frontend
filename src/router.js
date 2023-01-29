@@ -3,15 +3,15 @@ import {
     createRoutesFromElements,
     Route,
   } from "react-router-dom";
-import Create from "./pages/Create"
+// import Create from "./pages/Create"
 import Home from "./pages/Home"
 import App from "./App"
-import Index from "./pages/Index";
-import Show from "./pages/Show";
+// import Index from "./pages/Index";
+// import Show from "./pages/Show";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
-import { indexLoader, showLoader } from "./loaders";
-import {createAction, updateAction, deleteAction} from "./actions"
+// import { indexLoader, showLoader } from "./loaders";
+// import {createAction, updateAction, deleteAction} from "./actions"
 
 
   
@@ -19,7 +19,7 @@ import {createAction, updateAction, deleteAction} from "./actions"
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<App />}>
-        {/* <Route path="" element={<Home/>} loader={indexLoader}/> */}
+        <Route path="" element={<Home/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
         {/* <Route path="posts" element={<Index/>} loader={indexLoader}/>
