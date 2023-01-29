@@ -9,6 +9,10 @@ function Header(props) {
           <Link to="/" className="jobifyHeader">
             <h1>Jobify</h1>
           </Link>
+          <div className="SignupLogin">
+            <Link to="/signup">Signup</Link>
+            <Link to="/login">Login</Link>
+          </div>
         </div>
 
         <div className="links">
